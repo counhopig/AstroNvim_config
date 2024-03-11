@@ -81,5 +81,7 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    require "user.setting.indent-blankline"
+    require "user.setting.mini-indentscope"
   end,
 }

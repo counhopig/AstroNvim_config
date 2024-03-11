@@ -7,9 +7,10 @@ return {
   -- theme for neovim
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
-  --{ import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   -- another plugins
+  { import = "astrocommunity.indent.indent-blankline-nvim" },
+  { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.pack.python" },
