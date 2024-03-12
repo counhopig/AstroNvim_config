@@ -18,6 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
+  -- colorscheme = "kanagawa-wave",
   colorscheme = "catppuccin-mocha",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
