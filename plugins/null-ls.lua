@@ -11,9 +11,10 @@ return {
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
       -- null_ls.builtins.formatting.prettier,
-      -- null_ls.builtins.formatting.prettierd.with {
-      --   filetypes = { "javascript", "typescript", "html", "css" },
-      -- },
+      null_ls.builtins.formatting.prettier.with {
+        extra_args = { "--config-precedence", "file-override" },
+        filetypes = { "javascript", "typescript", "html", "css", "vue" },
+      },
     }
     return config -- return final config table
   end,
